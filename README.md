@@ -7,7 +7,7 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
 ## Current Apps
 
 - **Blue Def Decoder**
-  - [Privacy Policy](https://YOUR_USERNAME.github.io/mako-policies/privacy.html)
+  - [Privacy Policy](https://YOUR_USERNAME.github.io/mako-policies/bluedef-privacy.html)
   - [End User License Agreement (EULA)](https://YOUR_USERNAME.github.io/mako-policies/bluedef-eula.html)
 
 ## About
