@@ -10,6 +10,10 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
   - [Privacy Policy](https://makolabs-io.github.io/mako-policies/bluedef-privacy.html)
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/bluedef-eula.html)
 
+- **Smolov Squat Tracker**
+  - [Privacy Policy](https://makolabs-io.github.io/mako-policies/smolov-privacy.html)
+  - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/smolov-eula.html)
+
 ## About
 
 Mako Technology Labs LLC builds software tools and mobile apps for hobbyists, professionals, and everyday users.  
