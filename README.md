@@ -13,6 +13,10 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
 - **Smolov Squat Tracker**
   - [Privacy Policy](https://makolabs-io.github.io/mako-policies/smolov-privacy.html)
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/smolov-eula.html)
+ 
+- **Wendler 5/3/1 Tracker**
+  - [Privacy Policy](https://makolabs-io.github.io/mako-policies/wendler-privacy.html)
+  - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/wendler-eula.html)
 
 ## About
 
