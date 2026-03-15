@@ -22,6 +22,10 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
   - [Privacy Policy](https://makolabs-io.github.io/mako-policies/practice-signal-privacy.html)
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/practice-signal-eula.html)
 
+- **RollJournal Timer**
+  - [Privacy Policy](https://makolabs-io.github.io/mako-policies/rjtimer-privacy.html)
+  - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/rjtimer-eula.html)
+
 ## About
 
 Mako Technology Labs LLC builds software tools and mobile apps for hobbyists, professionals, and everyday users.  
