@@ -25,6 +25,10 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
 - **RollJournal Timer**
   - [Privacy Policy](https://makolabs-io.github.io/mako-policies/rjtimer-privacy.html)
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/rjtimer-eula.html)
+ 
+- **BiteSignal**
+  - [Privacy Policy](https://makolabs-io.github.io/mako-policies/bitesignal-privacy.html)
+  - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/bitesignal-eula.html)
 
 ## About
 
