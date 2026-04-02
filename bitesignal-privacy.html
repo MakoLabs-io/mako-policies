@@ -11,22 +11,45 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> March 28, 2026</p>
+  <p><strong>Last updated:</strong> April 2, 2026</p>
 
-  <p><strong>Mako Technology Labs LLC</strong> ("Mako," "we," "us") publishes mobile and web apps including <em>BiteSignal</em>. This Privacy Policy explains how this app handles information.</p>
+  <p><strong>Mako Technology Labs LLC</strong> ("Mako," "we," "us") publishes mobile and web apps including <em>BiteSignal</em>. This Privacy Policy explains how this app collects, uses, and protects information.</p>
 
   <h2>Information We Collect</h2>
-  <p>BiteSignal stores your fishing data — trips, catches, spots, and preferences — locally on your device. This data is not transmitted to Mako Technology Labs LLC or stored on our servers.</p>
+  <p>BiteSignal collects the following categories of information:</p>
 
-  <p>To provide real-time fishing conditions, the app accesses the following data:</p>
+  <h3>Account Information</h3>
+  <p>When you sign in with Apple or Google, we receive your email address (or a private relay address) and a unique user identifier. This information is used to create and manage your account. We do not receive or store your Apple ID password, Google password, or payment credentials.</p>
+
+  <h3>Fishing Data</h3>
+  <p>BiteSignal stores your fishing data — trips, sessions, catches, spots, species, baits, notes, and preferences — in a local on-device database. If you are signed in, this data is also synced to our cloud service (hosted on Supabase) so it can be backed up and restored across devices. Your fishing data is associated with your account and is not shared with other users or third parties.</p>
+
+  <h3>Photos</h3>
+  <p>If you attach photos to your catch records, they are stored locally on your device. If you are signed in, photos are also uploaded to secure cloud storage (Supabase Storage) and associated with your account. Photos are private and are not shared with other users or third parties.</p>
+
+  <h3>Location Data</h3>
+  <p>BiteSignal requests access to your device's location to provide accurate fishing conditions for your area. Location data is:</p>
   <ul>
-    <li><strong>Device location:</strong> Your GPS coordinates are used to fetch local tide predictions, weather conditions, and solunar data. Location is sent to third-party services (listed below) to retrieve this data and is not stored by Mako Technology Labs LLC.</li>
-    <li><strong>Purchase information:</strong> If you subscribe to BiteSignal Pro, your subscription is managed by Apple and RevenueCat. We do not collect your payment details. RevenueCat receives an anonymous device identifier to manage your subscription status.</li>
+    <li>Used only while the app is open (foreground location access)</li>
+    <li>Sent to NOAA and Open-Meteo to retrieve tide and weather data for your coordinates</li>
+    <li>Stored as part of your catch and spot records if you save a fishing location</li>
+    <li>Not shared with data brokers or used for advertising or tracking purposes</li>
   </ul>
+  <p>You may also set a location manually within the app without granting GPS access.</p>
+
+  <h2>Cloud Sync and Storage</h2>
+  <p>If you create an account by signing in with Apple or Google, your fishing data and photos are synced to our cloud infrastructure hosted on <strong>Supabase</strong> (a hosted PostgreSQL service). This enables:</p>
+  <ul>
+    <li>Backup and restoration of your data if you reinstall the app or switch devices</li>
+    <li>Secure storage of catch photos in cloud storage</li>
+  </ul>
+  <p>Your cloud data is protected by row-level security policies that ensure only you can access your own data. Data is transmitted over encrypted connections (TLS).</p>
+  <p>If you use BiteSignal without signing in, your data remains local to your device and is not uploaded to any server.</p>
 
   <h2>Third-Party Services</h2>
   <p>BiteSignal uses the following third-party services to provide core functionality:</p>
   <ul>
+    <li><strong>Supabase</strong> — Cloud database and file storage for account data, fishing records, and photos. Hosted in the United States. <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
     <li><strong>NOAA Tides & Currents</strong> — Tide predictions and tidal station data. Public domain, operated by the U.S. National Oceanic and Atmospheric Administration. <a href="https://tidesandcurrents.noaa.gov/api/">tidesandcurrents.noaa.gov</a></li>
     <li><strong>Open-Meteo</strong> — Weather data including wind, pressure, temperature, cloud cover, and precipitation. Licensed under CC BY 4.0. <a href="https://open-meteo.com/">open-meteo.com</a></li>
     <li><strong>RevenueCat</strong> — Subscription management. Receives an anonymous identifier and purchase receipts to validate your subscription status. <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
@@ -34,35 +57,21 @@
   </ul>
   <p>We do not share or sell user data. BiteSignal does not include advertising, advertising identifiers, or third-party tracking technologies.</p>
 
-  <h2>Local Storage of Fishing Data</h2>
-  <p>All fishing data you enter into BiteSignal — including trips, catches, spots, species, baits, notes, photos, and preferences — is stored locally on your device using an on-device database. This data exists solely for your personal use and is not uploaded to external servers or cloud services operated by us.</p>
-
-  <h2>Location Data</h2>
-  <p>BiteSignal requests access to your device's location to provide accurate fishing conditions for your area. Location data is:</p>
-  <ul>
-    <li>Used only while the app is open (foreground location access)</li>
-    <li>Sent to NOAA and Open-Meteo to retrieve tide and weather data for your coordinates</li>
-    <li>Not stored on our servers or shared with data brokers</li>
-    <li>Not used for advertising or tracking purposes</li>
-  </ul>
-  <p>You may also set a location manually within the app without granting GPS access.</p>
-
   <h2>Subscription and Payment Data</h2>
   <p>BiteSignal Pro subscriptions are processed entirely through Apple's App Store. We do not collect or have access to your payment card number, bank account, or Apple ID credentials. Subscription status is verified through RevenueCat using anonymous device identifiers.</p>
 
   <h2>Data Security</h2>
-  <p>All fishing information stored by BiteSignal remains on your device. The app relies on the security protections provided by the operating system of your device (such as iOS). Mako Technology Labs LLC does not operate servers or maintain user accounts for this application.</p>
+  <p>Fishing data stored locally on your device is protected by the security features of your operating system. Data synced to our cloud service is stored in a secured Supabase project with row-level security, encrypted at rest, and transmitted over TLS. Photos are stored in private cloud storage buckets accessible only to your account.</p>
 
   <h2>Data Retention and Deletion</h2>
-  <p>All fishing data in BiteSignal is stored locally on your device and is retained only as long as the app remains installed.</p>
-  <p>You have full control over your data and may delete it at any time by:</p>
+  <p>Your data is retained as long as your account exists. You have full control over your data and may delete it at any time by:</p>
   <ul>
+    <li>Deleting individual trips, catches, or spots within the app (removes them locally and from the cloud)</li>
     <li>Using the "Reset all data" option in the app's Settings screen</li>
-    <li>Deleting individual trips, catches, or spots within the app</li>
-    <li>Clearing the app's storage through your device settings</li>
-    <li>Uninstalling the application, which permanently removes all locally stored data</li>
+    <li>Signing out and uninstalling the app (local data is removed; cloud data persists until account deletion)</li>
+    <li>Contacting us at <a href="mailto:support@makolabs.io">support@makolabs.io</a> to request full account and data deletion</li>
   </ul>
-  <p>Because Mako Technology Labs LLC does not collect or store user data on external servers, we cannot access, retrieve, or delete your data on your behalf.</p>
+  <p>If you use BiteSignal without an account, all data is stored locally and is permanently deleted when you uninstall the app or clear its storage.</p>
 
   <h2>Children's Privacy</h2>
   <p>BiteSignal is intended for general use and is not directed toward children under the age of 13. We do not knowingly collect personal information from children.</p>
