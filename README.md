@@ -31,7 +31,7 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/bitesignal-eula.html)
   - [Delete Account](https://makolabs-io.github.io/mako-policies/bitesignal-delete-account.html)
 
-- **BiteSignal**
+- **TideSignal**
   - [Privacy Policy](https://makolabs-io.github.io/mako-policies/tidesignal-privacy.html)
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/tidesignal-eula.html)
   
