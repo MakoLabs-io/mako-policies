@@ -35,6 +35,10 @@ These documents are hosted publicly via GitHub Pages to comply with App Store an
   - [Privacy Policy](https://makolabs-io.github.io/mako-policies/tidesignal-privacy.html)
   - [End User License Agreement (EULA)](https://makolabs-io.github.io/mako-policies/tidesignal-eula.html)
   
+- **RollJournal**
+  - [Privacy Policy](https://makolabs-io.github.io/mako-policies/rolljournal-privacy.html)
+  - [Terms of Use / Terms of Service](https://makolabs-io.github.io/mako-policies/rolljournal-eula.html)
+
 ## About
 
 Mako Technology Labs LLC builds software tools and mobile apps for hobbyists, professionals, and everyday users.  
